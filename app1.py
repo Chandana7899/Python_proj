@@ -586,8 +586,7 @@ def main():
     print("Character frequency in 'hello world':", char_frequency("hello world"))
     print("Palindrome check recursive for 'madam':", is_palindrome_recursive("madam"))
     print("Binary of 42:", convert_to_binary(42))
-    print("Decimal of binary 101010:", binary_to_decimal("101010"))
-    print("BMI for weight 70kg and height 1.75m:", calculate_bmi(70, 1.75))
+    
 
 if __name__ == "__main__":
     main()

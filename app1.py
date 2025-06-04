@@ -552,9 +552,6 @@ def is_consonant(char):
 def greet_formally(name):
     print(f"Good day, {name}. How do you do?")
 
-def greet_informally(name):
-    print(f"Hey {name}, what's up?")
-
 def print_alphabet():
     for c in range(ord('a'), ord('z') + 1):
         print(chr(c), end=' ')
